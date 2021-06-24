@@ -1,0 +1,42 @@
+{
+  "name": "sass-plus",
+  "version": "0.1.0",
+  "description": "Sass + a little bit more",
+  "main": "./lib/sassplus.js",
+  "scripts": {
+    "test": "eslint 'lib/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klooven/sass-plus.git"
+  },
+  "keywords": [
+    "scss",
+    "lint",
+    "prefix",
+    "minify",
+    "clean"
+  ],
+  "author": "Klooven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Klooven/sass-plus/issues"
+  },
+  "homepage": "https://github.com/Klooven/sass-plus#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "clean-css": "^5.1.2",
+    "cosmiconfig": "^7.0.0",
+    "minimist": "^1.2.5",
+    "postcss": "^8.3.5",
+    "purgecss": "^4.0.3",
+    "sass": "^1.35.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-config-sass-guidelines": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-xo-space": "^0.28.0"
+  }
+}
