@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Sass + a little bit more",
   "main": "./lib/sassplus.js",
+  "bin": "./lib/cli.js",
   "scripts": {
     "test": "eslint 'lib/*.js'"
   },
@@ -27,6 +28,7 @@
     "autoprefixer": "^10.2.6",
     "clean-css": "^5.1.2",
     "cosmiconfig": "^7.0.0",
+    "fs-extra": "^10.0.0",
     "minimist": "^1.2.5",
     "postcss": "^8.3.5",
     "purgecss": "^4.0.3",
