@@ -1,6 +1,7 @@
 {
   "extends": "xo-space",
   "globals": {
-    "currentCSS": "writable"
+    "currentCSS": "writable",
+    "lintWarnings": "writable"
   }
 }
