@@ -62,7 +62,7 @@ These are the defaults when running `sass-plus`:
 
 - `lint` can be set to `true` (enabled) or `false` (disabled)
 - `prefix` can be set to `true` (enabled) or `false` (disabled)
-- `lint` can be set to `false` (disabled) **WIP**
+- `clean` can be set to `false` (disabled) **WIP**
 - `minify` can be set to `true` (enabled) or `false` (disabled)
 
 ## Programmatic API
