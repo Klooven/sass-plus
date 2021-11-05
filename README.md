@@ -93,7 +93,6 @@ The config is the same as for the CLI. The input and output styles are strings (
 ## Roadmap
 
 - More options for advanced config
-- Make ready for CI (i.e. use correct exit codes and check for `NODE_ENV` and `CI` environment variables)
 - Test and lint both API and CLI on supported platforms
 
 ## Versioning
