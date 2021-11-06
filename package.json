@@ -1,6 +1,6 @@
 {
   "name": "sass-plus",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Sass + a little bit more",
   "main": "./lib/sassplus.js",
   "bin": "./lib/cli.js",
@@ -37,7 +37,7 @@
     "stylelint-config-standard-scss": "^2.0.1"
   },
   "devDependencies": {
-    "eslint": "^8.1.0",
+    "eslint": "^8.2.0",
     "eslint-config-xo-space": "^0.30.0"
   }
 }
