@@ -66,7 +66,7 @@ These are the defaults when running `sass-plus`:
 
 - `lint` can be set to `true` (enabled) or `false` (disabled)
 - `prefix` can be set to `true` (enabled) or `false` (disabled)
-- `clean` can be set to `false` (disabled) or an array of files that should be inspected by PurgeCSS
+- `clean` can be set to `false` (disabled) or an object with the `content` (required) and `safelist` [options](https://purgecss.com/configuration.html#options) from PurgeCSS
 - `minify` can be set to `true` (enabled) or `false` (disabled)
 
 ## Programmatic API
