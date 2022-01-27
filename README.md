@@ -71,7 +71,7 @@ These are the defaults when running `sass-plus`:
 
 ## Programmatic API
 
-This package also exports a promise-based simple API that works like the CLI (but without the CLI).
+This package also exports a promise-based simple API that is configurable with the same options as mentioned above. The input and output styles are strings (the API doesn't access the filesystem).
 
 ```js
 const sassplus = require('sass-plus');
@@ -92,11 +92,8 @@ console.log(css);
 console.log(lint);
 ```
 
-The config is the same as for the CLI. The input and output styles are strings (the API doesn't access the filesystem).
-
 ## Roadmap
 
-- More options for advanced config
 - Test and lint both API and CLI on supported platforms
 
 ## Versioning
