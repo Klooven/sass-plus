@@ -95,6 +95,8 @@ console.log(lint);
 ## Roadmap
 
 - Test and lint both API and CLI on supported platforms
+- Support source map creation?
+- Enable GitHub actions
 
 ## Versioning
 
