@@ -41,6 +41,6 @@
   },
   "devDependencies": {
     "eslint": "^8.7.0",
-    "eslint-config-xo-space": "^0.31.0"
+    "eslint-config-xo-space": "^0.32.0"
   }
 }
