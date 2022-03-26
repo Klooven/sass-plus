@@ -1,7 +1,7 @@
 # sass-plus
 > Sass + a little bit more
 
-**WIP! This tool is not ready yet. Some features are missing and some might not work as expected.**
+**WIP! Some features are missing and some might not work as expected.**
 
 `sass-plus` is a convenient CLI tool for quickly generating CSS from SCSS. In addition to the "generic" Sass-compiler, `sass-plus` enables the following automatically (in exchange for opinionated defaults):
 
@@ -47,11 +47,11 @@ sass-plus -i sass/styles.scss -o build/styles.css -c
 
 ### Production mode
 
-Production mode can be enabled with the `--production` flag, or by setting `CI=true` or `NODE_ENV=production` as environment variables. Lint errors will always cause `sass-plus` to exit with code 1 in production === show as an error in CI.
+Production mode can be enabled with the `--production` flag, or by using either the `CI=true` or the `NODE_ENV=production` environment variable. In this mode lint errors will always cause `sass-plus` to exit with code 1 in production === show as an error in CI.
 
 ## Advanced configuration
 
-Configuration is not needed to run `sass-plus`! You can though adapt the tool to your needs by creating a config file called `.sassplusrc`. It will be parsed using cosmiconfig, so feel free to use YAML, JSON, or any of the other supported config formats.
+Configuration is not needed to run `sass-plus`! You can, though, adapt the tool to your needs by creating a config file called `.sassplusrc`. It will be parsed using cosmiconfig, so feel free to use YAML, JSON, or any of the other supported config formats.
 
 These are the defaults when running `sass-plus`:
 
@@ -96,7 +96,6 @@ console.log(lint);
 
 - Test and lint both API and CLI on supported platforms
 - Support source map creation?
-- Enable GitHub actions
 
 ## Versioning
 
