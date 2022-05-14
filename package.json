@@ -1,6 +1,6 @@
 {
   "name": "sass-plus",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Sass + a little bit more",
   "main": "./lib/sassplus.js",
   "files": [
