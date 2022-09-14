@@ -34,7 +34,7 @@
     "fs-extra": "^10.1.0",
     "minimist": "^1.2.6",
     "postcss": "^8.4.13",
-    "purgecss": "^4.1.3",
+    "purgecss": "^5.0.0",
     "sass": "^1.51.0",
     "stylelint": "^14.8.2",
     "stylelint-config-standard-scss": "^3.0.0"
