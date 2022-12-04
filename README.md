@@ -20,7 +20,7 @@ Install it locally (development dependency)...
 npm i sass-plus -D
 ```
 
-Use with NPX...
+Or use with NPX...
 ```bash
 npx sass-plus
 ```
@@ -97,9 +97,11 @@ console.log(lint);
 - Test and lint both API and CLI on supported platforms
 - Support source map creation?
 
-## Versioning
+## Versioning and supported Node versions
 
 While the major version is `0`, please expect breaking changes when minor bumps are made. We'll follow semver as the tool is bumped to `1.0.0`.
+
+[Currently maintained](https://github.com/nodejs/Release#release-schedule) Node versions are supported.
 
 ## Questions?
 
