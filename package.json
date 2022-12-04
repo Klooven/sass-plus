@@ -1,8 +1,11 @@
 {
   "name": "sass-plus",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Sass + a little bit more",
   "main": "./lib/sassplus.js",
+  "engines": {
+    "node": ">=14"
+  },
   "files": [
     "lib/"
   ],
